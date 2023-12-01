@@ -186,8 +186,17 @@
 
 
 
-/// Day Sixteen
-let inputDaySixteen = loadAsArray(file: "DaySixteen")
+///// Day Sixteen
+//let inputDaySixteen = loadAsArray(file: "DaySixteen")
+//
+//// Part One
+//print(daySixteen(input: inputDaySixteen))
 
-// Part One
-print(daySixteen(input: inputDaySixteen))
+
+// MARK: 2023
+
+let inputDayOne = loadAsArray(file: "DayOne2023")
+
+print(dayOne23(input: inputDayOne, partTwo: false))
+
+print(dayOne23(input: inputDayOne, partTwo: true))
