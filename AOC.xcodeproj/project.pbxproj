@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF62C1552B1B4C9500B1EB69 /* DayTwo2023.txt in Resources */ = {isa = PBXBuildFile; fileRef = EF62C1542B1B4C9500B1EB69 /* DayTwo2023.txt */; };
+		EF62C1572B1B4CC400B1EB69 /* 2023-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF62C1562B1B4CC400B1EB69 /* 2023-2.swift */; };
+		EF62C15B2B1B597B00B1EB69 /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF62C15A2B1B597B00B1EB69 /* IntExtensions.swift */; };
 		EF7E1C122B19DE9C0037C6BD /* 2023-1.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7E1C112B19DE9C0037C6BD /* 2023-1.swift */; };
 		EF7E1C162B19DED50037C6BD /* DayOne2023.txt in Resources */ = {isa = PBXBuildFile; fileRef = EF7E1C152B19DED50037C6BD /* DayOne2023.txt */; };
 		EFB9F5E7294CC59500ECA7E1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB9F5E6294CC59500ECA7E1 /* main.swift */; };
@@ -69,6 +72,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EF62C1542B1B4C9500B1EB69 /* DayTwo2023.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DayTwo2023.txt; sourceTree = "<group>"; };
+		EF62C1562B1B4CC400B1EB69 /* 2023-2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2023-2.swift"; sourceTree = "<group>"; };
+		EF62C15A2B1B597B00B1EB69 /* IntExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExtensions.swift; sourceTree = "<group>"; };
 		EF7E1C112B19DE9C0037C6BD /* 2023-1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2023-1.swift"; sourceTree = "<group>"; };
 		EF7E1C152B19DED50037C6BD /* DayOne2023.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DayOne2023.txt; sourceTree = "<group>"; };
 		EFB9F5E3294CC59500ECA7E1 /* AOC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AOC; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -163,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				EF7E1C112B19DE9C0037C6BD /* 2023-1.swift */,
+				EF62C1562B1B4CC400B1EB69 /* 2023-2.swift */,
 			);
 			path = 2023;
 			sourceTree = "<group>";
@@ -196,6 +203,7 @@
 			isa = PBXGroup;
 			children = (
 				EF7E1C152B19DED50037C6BD /* DayOne2023.txt */,
+				EF62C1542B1B4C9500B1EB69 /* DayTwo2023.txt */,
 			);
 			path = 2023;
 			sourceTree = "<group>";
@@ -247,6 +255,7 @@
 				EFB9F5F9294CC5DC00ECA7E1 /* StringExtensions.swift */,
 				EFB9F5FA294CC5DC00ECA7E1 /* CharacterExtensions.swift */,
 				EFB9F5FC294CC5DC00ECA7E1 /* TwoDArray.swift */,
+				EF62C15A2B1B597B00B1EB69 /* IntExtensions.swift */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -360,6 +369,7 @@
 				EFB9F67C294CCC7400ECA7E1 /* tmp.txt in Resources */,
 				EFB9F67B294CCC7400ECA7E1 /* DayFourteen.txt in Resources */,
 				EFB9F674294CCC7400ECA7E1 /* DayEleven.txt in Resources */,
+				EF62C1552B1B4C9500B1EB69 /* DayTwo2023.txt in Resources */,
 				EFB9F672294CCC7400ECA7E1 /* DaySix.txt in Resources */,
 				EFB9F675294CCC7400ECA7E1 /* DaySixteen.txt in Resources */,
 				EF7E1C162B19DED50037C6BD /* DayOne2023.txt in Resources */,
@@ -391,9 +401,11 @@
 				EFB9F5E7294CC59500ECA7E1 /* main.swift in Sources */,
 				EFB9F607294CC5DD00ECA7E1 /* DayTwo.swift in Sources */,
 				EFB9F616294CC5DD00ECA7E1 /* DayFifteen.swift in Sources */,
+				EF62C1572B1B4CC400B1EB69 /* 2023-2.swift in Sources */,
 				EF7E1C122B19DE9C0037C6BD /* 2023-1.swift in Sources */,
 				EFB9F606294CC5DD00ECA7E1 /* DayThree.swift in Sources */,
 				EFB9F61A294CC5DD00ECA7E1 /* DayEight.swift in Sources */,
+				EF62C15B2B1B597B00B1EB69 /* IntExtensions.swift in Sources */,
 				EFB9F609294CC5DD00ECA7E1 /* DayTen.swift in Sources */,
 				EFB9F60A294CC5DD00ECA7E1 /* DaySix.swift in Sources */,
 				EFB9F60E294CC5DD00ECA7E1 /* GenericFunctions.swift in Sources */,

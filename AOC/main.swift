@@ -195,8 +195,17 @@
 
 // MARK: 2023
 
-let inputDayOne = loadAsArray(file: "DayOne2023")
+///// Day One
+//let inputDayOne = loadAsArray(file: "DayOne2023")
+//
+//print(dayOne23(input: inputDayOne, partTwo: false))
+//
+//print(dayOne23(input: inputDayOne, partTwo: true))
 
-print(dayOne23(input: inputDayOne, partTwo: false))
 
-print(dayOne23(input: inputDayOne, partTwo: true))
+/// Day Two
+let inputDayTwo = loadAsArray(file: "DayTwo2023")
+
+print(dayTwo23(input: inputDayTwo, partTwo: false))
+
+print(dayTwo23(input: inputDayTwo, partTwo: true))
