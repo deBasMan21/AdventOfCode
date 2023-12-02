@@ -81,11 +81,7 @@ struct MinAmount {
     let red, green, blue: Int
     
     func addMinAmount(_ other: MinAmount) -> MinAmount {
-        MinAmount(
-            red: max(red, other.red),
-            green: max(green, other.green),
-            blue: max(blue, other.blue)
-        )
+        MinAmount(red: max(red, other.red), green: max(green, other.green), blue: max(blue, other.blue))
     }
     
     func getPower() -> Int {
