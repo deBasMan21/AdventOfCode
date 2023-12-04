@@ -26,4 +26,8 @@ extension String {
     func trimmed() -> String {
         self.trimmingCharacters(in: CharacterSet.whitespaces)
     }
+    
+    var firstIsNumber: Bool {
+        self.first?.isNumber ?? false
+    }
 }
