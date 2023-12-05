@@ -13,3 +13,9 @@ extension Collection {
         return indices.contains(index) ? self[index] : nil
     }
 }
+
+extension Array {
+    var second: Element? {
+        self.indices.contains(1) ? self[1] : nil
+    }
+}
