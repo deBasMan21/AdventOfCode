@@ -227,9 +227,17 @@
 //print(dayFour23(input: inputDayFour, partTwo: true))
 
 
-/// Day Five
-let inputDayFive = loadAsArray(file: "DayFive2023", splitOn: "\n\n")
+///// Day Five
+//let inputDayFive = loadAsArray(file: "DayFive2023", splitOn: "\n\n")
+//
+//print(dayFive23(input: inputDayFive, partTwo: false))
+//
+//print(dayFive23(input: inputDayFive, partTwo: true))
 
-print(dayFive23(input: inputDayFive, partTwo: false))
 
-print(dayFive23(input: inputDayFive, partTwo: true))
+/// Day Six
+let inputDaySix = loadAsArray(file: "DaySix2023")
+
+print(daySix23(input: inputDaySix, partTwo: false))
+
+print(daySix23(input: inputDaySix, partTwo: true))
