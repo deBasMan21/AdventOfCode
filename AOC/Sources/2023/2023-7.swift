@@ -7,7 +7,7 @@
 
 import Foundation
 
-fileprivate var valueMap: [String: Int] = ["2": 2, "3": 3, "4": 4, "5": 5, "6": 6, "7": 7, "8": 8, "9": 9, "T": 10, "Q": 12, "K": 13, "A": 14]
+fileprivate var valueMap = ["2": 2, "3": 3, "4": 4, "5": 5, "6": 6, "7": 7, "8": 8, "9": 9, "T": 10, "Q": 12, "K": 13, "A": 14]
 func daySeven23(input: [String], partTwo: Bool) -> Int {
     valueMap["J"] = partTwo ? 1 : 11
     return input.compactMap {
@@ -17,7 +17,7 @@ func daySeven23(input: [String], partTwo: Bool) -> Int {
             bet: Int(spaceSplit.last!)!,
             partTwo: partTwo
         )
-    }.sorted(by: { !$0.isBigger(other: $1)}).enumerated().compactMap { $0.element.bet * ($0.offset + 1) }.reduce(0, +)
+    }.sorted(by: { !$0.isBigger(other: $1) }).enumerated().compactMap { $0.element.bet * ($0.offset + 1) }.reduce(0, +)
 }
  
 struct Hand {
