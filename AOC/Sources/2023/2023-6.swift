@@ -8,11 +8,8 @@
 import Foundation
 
 func daySix23(input: [String], partTwo: Bool) -> Double {
-    let splitInput = if partTwo {
-        input.compactMap { $0.split(separator: ":").compactMap { $0.replacing(" ", with: "")} }
-    } else {
-        input.compactMap { $0.split(separator: " ").filter { !$0.isEmpty} }
-    }
+    let splitInput = if partTwo { input.compactMap { $0.split(separator: ":").compactMap { $0.replacing(" ", with: "")} } }
+        else { input.compactMap { $0.split(separator: " ").filter { !$0.isEmpty} } }
     return Array(splitInput.first!.enumerated()).suffix(from: 1).compactMap { Race(time: Int($1)!, distance: Int(splitInput.last![$0])!) }.compactMap { $0.calculateTimeAndDistance() }.reduce(1, *)
 }
 

@@ -18,7 +18,7 @@ public func daySeven(input: [String], isPartOne: Bool) -> Int {
 
 var sizeList: [Int] = []
 
-class Node: Hashable {
+fileprivate class Node: Hashable {
     var parent: Node?
     var children: Set<Node>
     var size: Int
