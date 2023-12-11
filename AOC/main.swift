@@ -238,18 +238,17 @@
 //print(dayNine23(input: inputDayNine, partTwo: true))
 
 
-///// Day Ten
-//let inputDayTen = loadAsArray(file: "DayTen2023")
+/// Day Ten
+let inputDayTen = loadAsArray(file: "DayTen2023")
+
+print(dayTen23(input: inputDayTen, partTwo: false))
+
+print(dayTen23(input: inputDayTen, partTwo: true))
+
+
+///// Day Eleven
+//let inputDayEleven = loadAsArray(file: "DayEleven2023")
 //
-//print(dayTen23(input: inputDayTen, partTwo: false))
+//print(dayEleven23(input: inputDayEleven, partTwo: false))
 //
-// Not implemented yet
-//print(dayTen23(input: inputDayTen, partTwo: true))
-
-
-/// Day Eleven
-let inputDayEleven = loadAsArray(file: "DayEleven2023")
-
-print(dayEleven23(input: inputDayEleven, partTwo: false))
-
-print(dayEleven23(input: inputDayEleven, partTwo: true))
+//print(dayEleven23(input: inputDayEleven, partTwo: true))
