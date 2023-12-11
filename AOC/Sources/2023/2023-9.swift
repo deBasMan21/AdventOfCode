@@ -16,6 +16,6 @@ func dayNine23(input: [String], partTwo: Bool) -> Int {
                 return (number - diffLines.last![partTwo ? (index + 1) : (index - 1)])
             })
         }
-        return diffLines.reversed().reduce(into: 0, { $0 += partTwo ? $1.first! : $1.last! })
+        return diffLines.reversed().compactMap { partTwo ? $0.first : $0.last }.reduce(0, +)
     }.reduce(0, +)
 }

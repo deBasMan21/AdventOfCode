@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		EF2A0E8A2B24955D007949C9 /* 2023-9.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2A0E892B24955D007949C9 /* 2023-9.swift */; };
 		EF2A0E8C2B2495B6007949C9 /* DayNine2023.txt in Resources */ = {isa = PBXBuildFile; fileRef = EF2A0E8B2B2495B6007949C9 /* DayNine2023.txt */; };
+		EF2A0E8E2B263367007949C9 /* 2023-10.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2A0E8D2B263367007949C9 /* 2023-10.swift */; };
+		EF2A0E902B2633CA007949C9 /* DayTen2023.txt in Resources */ = {isa = PBXBuildFile; fileRef = EF2A0E8F2B2633CA007949C9 /* DayTen2023.txt */; };
 		EF626E7F2B1C81EA000E44CE /* 2023-3.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF626E7E2B1C81EA000E44CE /* 2023-3.swift */; };
 		EF626E812B1C824C000E44CE /* DayThree2023.txt in Resources */ = {isa = PBXBuildFile; fileRef = EF626E802B1C824C000E44CE /* DayThree2023.txt */; };
 		EF626E832B1D1457000E44CE /* CollectionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF626E822B1D1457000E44CE /* CollectionExtensions.swift */; };
@@ -71,6 +73,8 @@
 		EFB9F67B294CCC7400ECA7E1 /* DayFourteen.txt in Resources */ = {isa = PBXBuildFile; fileRef = EFB9F642294CC99600ECA7E1 /* DayFourteen.txt */; };
 		EFB9F67C294CCC7400ECA7E1 /* tmp.txt in Resources */ = {isa = PBXBuildFile; fileRef = EFB9F634294CC99600ECA7E1 /* tmp.txt */; };
 		EFB9F67D294CCD0700ECA7E1 /* Inputs.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = EFB9F666294CCC4E00ECA7E1 /* Inputs.bundle */; };
+		EFFD5EA32B2705B200A563D1 /* 2023-11.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFD5EA22B2705B200A563D1 /* 2023-11.swift */; };
+		EFFD5EA52B2705ED00A563D1 /* DayEleven2023.txt in Resources */ = {isa = PBXBuildFile; fileRef = EFFD5EA42B2705ED00A563D1 /* DayEleven2023.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -89,6 +93,8 @@
 /* Begin PBXFileReference section */
 		EF2A0E892B24955D007949C9 /* 2023-9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2023-9.swift"; sourceTree = "<group>"; };
 		EF2A0E8B2B2495B6007949C9 /* DayNine2023.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DayNine2023.txt; sourceTree = "<group>"; };
+		EF2A0E8D2B263367007949C9 /* 2023-10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2023-10.swift"; sourceTree = "<group>"; };
+		EF2A0E8F2B2633CA007949C9 /* DayTen2023.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DayTen2023.txt; sourceTree = "<group>"; };
 		EF626E7E2B1C81EA000E44CE /* 2023-3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2023-3.swift"; sourceTree = "<group>"; };
 		EF626E802B1C824C000E44CE /* DayThree2023.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DayThree2023.txt; sourceTree = "<group>"; };
 		EF626E822B1D1457000E44CE /* CollectionExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionExtensions.swift; sourceTree = "<group>"; };
@@ -151,6 +157,8 @@
 		EFB9F644294CC99600ECA7E1 /* DayFifteen.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DayFifteen.txt; sourceTree = "<group>"; };
 		EFB9F645294CC99600ECA7E1 /* DaySeven.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DaySeven.txt; sourceTree = "<group>"; };
 		EFB9F666294CCC4E00ECA7E1 /* Inputs.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Inputs.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFFD5EA22B2705B200A563D1 /* 2023-11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2023-11.swift"; sourceTree = "<group>"; };
+		EFFD5EA42B2705ED00A563D1 /* DayEleven2023.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DayEleven2023.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +215,8 @@
 				EF626E922B21DBE4000E44CE /* 2023-7.swift */,
 				EF626E962B23628F000E44CE /* 2023-8.swift */,
 				EF2A0E892B24955D007949C9 /* 2023-9.swift */,
+				EF2A0E8D2B263367007949C9 /* 2023-10.swift */,
+				EFFD5EA22B2705B200A563D1 /* 2023-11.swift */,
 			);
 			path = 2023;
 			sourceTree = "<group>";
@@ -248,6 +258,8 @@
 				EF626E942B21DC38000E44CE /* DaySeven2023.txt */,
 				EF626E982B2362ED000E44CE /* DayEight2023.txt */,
 				EF2A0E8B2B2495B6007949C9 /* DayNine2023.txt */,
+				EF2A0E8F2B2633CA007949C9 /* DayTen2023.txt */,
+				EFFD5EA42B2705ED00A563D1 /* DayEleven2023.txt */,
 			);
 			path = 2023;
 			sourceTree = "<group>";
@@ -362,7 +374,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1410;
-				LastUpgradeCheck = 1410;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					EFB9F5E2294CC59500ECA7E1 = {
 						CreatedOnToolsVersion = 14.1;
@@ -399,6 +411,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF2A0E902B2633CA007949C9 /* DayTen2023.txt in Resources */,
 				EFB9F679294CCC7400ECA7E1 /* DayTwo.txt in Resources */,
 				EFB9F676294CCC7400ECA7E1 /* DayThree.txt in Resources */,
 				EFB9F67A294CCC7400ECA7E1 /* DayFive.txt in Resources */,
@@ -421,6 +434,7 @@
 				EF626E992B2362ED000E44CE /* DayEight2023.txt in Resources */,
 				EF62C1552B1B4C9500B1EB69 /* DayTwo2023.txt in Resources */,
 				EFB9F672294CCC7400ECA7E1 /* DaySix.txt in Resources */,
+				EFFD5EA52B2705ED00A563D1 /* DayEleven2023.txt in Resources */,
 				EFB9F675294CCC7400ECA7E1 /* DaySixteen.txt in Resources */,
 				EF626E8B2B1F978E000E44CE /* DayFive2023.txt in Resources */,
 				EF7E1C162B19DED50037C6BD /* DayOne2023.txt in Resources */,
@@ -441,6 +455,7 @@
 				EF626E7F2B1C81EA000E44CE /* 2023-3.swift in Sources */,
 				EFB9F610294CC5DD00ECA7E1 /* StringExtensions.swift in Sources */,
 				EFB9F60B294CC5DD00ECA7E1 /* DaySeven.swift in Sources */,
+				EF2A0E8E2B263367007949C9 /* 2023-10.swift in Sources */,
 				EFB9F612294CC5DD00ECA7E1 /* FileReader.swift in Sources */,
 				EFB9F619294CC5DD00ECA7E1 /* DayEleven.swift in Sources */,
 				EFB9F615294CC5DD00ECA7E1 /* DayFour.swift in Sources */,
@@ -466,6 +481,7 @@
 				EF62C15B2B1B597B00B1EB69 /* IntExtensions.swift in Sources */,
 				EFB9F609294CC5DD00ECA7E1 /* DayTen.swift in Sources */,
 				EFB9F60A294CC5DD00ECA7E1 /* DaySix.swift in Sources */,
+				EFFD5EA32B2705B200A563D1 /* 2023-11.swift in Sources */,
 				EFB9F60E294CC5DD00ECA7E1 /* GenericFunctions.swift in Sources */,
 				EF626E932B21DBE4000E44CE /* 2023-7.swift in Sources */,
 				EFB9F60F294CC5DD00ECA7E1 /* CGPointExtensions.swift in Sources */,
@@ -517,9 +533,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -577,9 +595,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -601,6 +621,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 963LK66N4P;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -612,6 +633,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 963LK66N4P;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -625,6 +647,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 963LK66N4P;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -645,6 +668,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 963LK66N4P;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";

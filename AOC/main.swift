@@ -1,3 +1,5 @@
+// MARK: 2022
+
 ///// Day One
 //let inputDayOne = loadAsArray(file: "DayOne", splitOn: "\n\n")
 //
@@ -12,10 +14,8 @@
 ////
 ////// Part two recursive
 ////print(dayOneRecursive(amount: 2, input: inputDayOne))
-//
-//
-//
-//
+
+
 ///// Day Two
 //let inputDayTwo = loadAsArray(file: "DayTwo")
 //
@@ -27,10 +27,8 @@
 //
 ////// Part two with the least lines
 ////print(dayTwoPartTwoShort(input: inputDayTwo))
-//
-//
-//
-//
+
+
 ///// Day three
 //let inputDayThree = loadAsArray(file: "DayThree")
 //
@@ -39,10 +37,8 @@
 //
 //// Part two
 //print(dayThree(input: inputDayThree, isPartOne: false))
-//
-//
-//
-//
+
+
 ///// Day Four
 //let inputDayFour = loadAsArray(file: "DayFour")
 //
@@ -51,10 +47,8 @@
 //
 //// Part Two
 //print(dayFour(input: inputDayFour, isPartOne: false))
-//
-//
-//
-//
+
+
 ///// Day Five
 //let inputDayFive = loadAsArray(file: "DayFive", splitOn: "\n\n")
 //
@@ -63,10 +57,8 @@
 //
 //// Part Two
 //print(dayFive(input: inputDayFive, isPartOne: false))
-//
-//
-//
-//
+
+
 ///// Day Six
 //let inputDaySix = loadAsArray(file: "DaySix")
 //
@@ -75,10 +67,8 @@
 //
 //// Part Two
 //print(daySix(input: inputDaySix, amount: 14)!)
-//
-//
-//
-//
+
+
 ///// Day Seven
 //let inputDaySeven = loadAsArray(file: "DaySeven")
 //
@@ -87,11 +77,8 @@
 //
 //// Part Two
 //print(daySeven(input: inputDaySeven, isPartOne: false))
-//
-//
-//
-//
-//
+
+
 ///// Day Eight
 //let inputDayEight = loadAsArray(file: "DayEight")
 //
@@ -100,10 +87,8 @@
 //
 //// Part Two
 //print(dayEight(input: inputDayEight, isPartOne: false))
-//
-//
-//
-//
+
+
 ///// Day Nine
 //let inputDayNine = loadAsArray(file: "DayNine")
 //
@@ -112,19 +97,15 @@
 //
 //// Part One
 //print(dayNine(input: inputDayNine, trailingAmount: 9))
-//
-//
-//
-//
+
+
 ///// Day Ten
 //let inputDayTen = loadAsArray(file: "DayTen")
 //
 //// Part One and Part Two
 //print(dayTen(input: inputDayTen))
-//
-//
-//
-//
+
+
 ///// Day Eleven
 //let inputDayEleven = loadAsArray(file: "DayEleven", splitOn: "\n\n")
 //
@@ -133,10 +114,8 @@
 //
 //// Part Two
 //print(dayEleven(input: inputDayEleven, isPartOne: false))
-//
-//
-//
-//
+
+
 ///// Day Twelve
 //let inputDayTwelve = loadAsArray(file: "DayTwelve")
 //
@@ -145,10 +124,8 @@
 //
 //// Part Two
 //print(dayTwelve(input: inputDayTwelve, isPartOne: false))
-//
-//
-//
-//
+
+
 ///// Day Thirteen
 //// Input is in the DayThirteen.swift file
 //let inputDayThirteen = loadAsArray(file: "DayThirteen")
@@ -158,10 +135,8 @@
 //
 //// Part Two
 //print(dayThirteen(inputString: inputDayThirteen, isPartOne: false))
-//
-//
-//
-//
+
+
 ///// Day Fourteen
 //let inputDayFourteen = loadAsArray(file: "DayFourteen")
 //
@@ -170,10 +145,8 @@
 //
 //// Part Two
 //print(dayFourteen(input: inputDayFourteen, isPartOne: false))
-//
-//
-//
-//
+
+
 ///// Day Fifteen
 //let inputDayFifteen = loadAsArray(file: "DayFifteen")
 //
@@ -182,8 +155,6 @@
 //
 //// Part Two
 //print(dayFifteen(input: inputDayFifteen, isPartOne: false))
-
-
 
 
 ///// Day Sixteen
@@ -259,9 +230,26 @@
 //print(dayEight23(input: inputDayEight, partTwo: true))
 
 
-/// Day Nine
-let inputDayNine = loadAsArray(file: "DayNine2023")
+///// Day Nine
+//let inputDayNine = loadAsArray(file: "DayNine2023")
+//
+//print(dayNine23(input: inputDayNine, partTwo: false))
+//
+//print(dayNine23(input: inputDayNine, partTwo: true))
 
-print(dayNine23(input: inputDayNine, partTwo: false))
 
-print(dayNine23(input: inputDayNine, partTwo: true))
+///// Day Ten
+//let inputDayTen = loadAsArray(file: "DayTen2023")
+//
+//print(dayTen23(input: inputDayTen, partTwo: false))
+//
+// Not implemented yet
+//print(dayTen23(input: inputDayTen, partTwo: true))
+
+
+/// Day Eleven
+let inputDayEleven = loadAsArray(file: "DayEleven2023")
+
+print(dayEleven23(input: inputDayEleven, partTwo: false))
+
+print(dayEleven23(input: inputDayEleven, partTwo: true))

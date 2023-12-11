@@ -11,7 +11,7 @@ public func daySeven(input: [String], isPartOne: Bool) -> Int {
             currentDirectory.mkFile(name: parts[1], size: Int(parts[0]) ?? 0)
         }
     }
-    rootDir.findSize()
+    _ = rootDir.findSize()
     let requiredSize = abs(40000000 - (sizeList.sorted(by: >).first ?? 0))
     return isPartOne ? sizeList.filter { $0 < 100000 }.reduce(0, +) : sizeList.filter { $0 > requiredSize }.sorted(by: <).first ?? 0
 }
