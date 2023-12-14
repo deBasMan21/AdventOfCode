@@ -263,4 +263,4 @@ let inputDayThirteen = loadAsArray(file: "DayThirteen2023", splitOn: "\n\n")
 
 print(dayThirteen23(input: inputDayThirteen, partTwo: false))
 
-//print(dayThirteen23(input: inputDayThirteen, partTwo: true))
+print(dayThirteen23(input: inputDayThirteen, partTwo: true))
