@@ -75,6 +75,8 @@
 		EFB9F67D294CCD0700ECA7E1 /* Inputs.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = EFB9F666294CCC4E00ECA7E1 /* Inputs.bundle */; };
 		EFFD5EA32B2705B200A563D1 /* 2023-11.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFD5EA22B2705B200A563D1 /* 2023-11.swift */; };
 		EFFD5EA52B2705ED00A563D1 /* DayEleven2023.txt in Resources */ = {isa = PBXBuildFile; fileRef = EFFD5EA42B2705ED00A563D1 /* DayEleven2023.txt */; };
+		EFFD5EA72B2B358000A563D1 /* 2023-13.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFD5EA62B2B358000A563D1 /* 2023-13.swift */; };
+		EFFD5EA92B2B35D300A563D1 /* DayThirteen2023.txt in Resources */ = {isa = PBXBuildFile; fileRef = EFFD5EA82B2B35D300A563D1 /* DayThirteen2023.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -159,6 +161,8 @@
 		EFB9F666294CCC4E00ECA7E1 /* Inputs.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Inputs.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFFD5EA22B2705B200A563D1 /* 2023-11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2023-11.swift"; sourceTree = "<group>"; };
 		EFFD5EA42B2705ED00A563D1 /* DayEleven2023.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DayEleven2023.txt; sourceTree = "<group>"; };
+		EFFD5EA62B2B358000A563D1 /* 2023-13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2023-13.swift"; sourceTree = "<group>"; };
+		EFFD5EA82B2B35D300A563D1 /* DayThirteen2023.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DayThirteen2023.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +221,7 @@
 				EF2A0E892B24955D007949C9 /* 2023-9.swift */,
 				EF2A0E8D2B263367007949C9 /* 2023-10.swift */,
 				EFFD5EA22B2705B200A563D1 /* 2023-11.swift */,
+				EFFD5EA62B2B358000A563D1 /* 2023-13.swift */,
 			);
 			path = 2023;
 			sourceTree = "<group>";
@@ -260,6 +265,7 @@
 				EF2A0E8B2B2495B6007949C9 /* DayNine2023.txt */,
 				EF2A0E8F2B2633CA007949C9 /* DayTen2023.txt */,
 				EFFD5EA42B2705ED00A563D1 /* DayEleven2023.txt */,
+				EFFD5EA82B2B35D300A563D1 /* DayThirteen2023.txt */,
 			);
 			path = 2023;
 			sourceTree = "<group>";
@@ -420,6 +426,7 @@
 				EF626E912B20D146000E44CE /* DaySix2023.txt in Resources */,
 				EFB9F673294CCC7400ECA7E1 /* DayTen.txt in Resources */,
 				EFB9F66D294CCC7400ECA7E1 /* DayNine.txt in Resources */,
+				EFFD5EA92B2B35D300A563D1 /* DayThirteen2023.txt in Resources */,
 				EFB9F678294CCC7400ECA7E1 /* tmp2.txt in Resources */,
 				EFB9F670294CCC7400ECA7E1 /* DayFifteen.txt in Resources */,
 				EFB9F66F294CCC7400ECA7E1 /* DayTwelve.txt in Resources */,
@@ -456,6 +463,7 @@
 				EFB9F610294CC5DD00ECA7E1 /* StringExtensions.swift in Sources */,
 				EFB9F60B294CC5DD00ECA7E1 /* DaySeven.swift in Sources */,
 				EF2A0E8E2B263367007949C9 /* 2023-10.swift in Sources */,
+				EFFD5EA72B2B358000A563D1 /* 2023-13.swift in Sources */,
 				EFB9F612294CC5DD00ECA7E1 /* FileReader.swift in Sources */,
 				EFB9F619294CC5DD00ECA7E1 /* DayEleven.swift in Sources */,
 				EFB9F615294CC5DD00ECA7E1 /* DayFour.swift in Sources */,

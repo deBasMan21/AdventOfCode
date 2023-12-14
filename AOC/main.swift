@@ -238,12 +238,12 @@
 //print(dayNine23(input: inputDayNine, partTwo: true))
 
 
-/// Day Ten
-let inputDayTen = loadAsArray(file: "DayTen2023")
-
-print(dayTen23(input: inputDayTen, partTwo: false))
-
-print(dayTen23(input: inputDayTen, partTwo: true))
+///// Day Ten
+//let inputDayTen = loadAsArray(file: "DayTen2023")
+//
+//print(dayTen23(input: inputDayTen, partTwo: false))
+//
+//print(dayTen23(input: inputDayTen, partTwo: true))
 
 
 ///// Day Eleven
@@ -252,3 +252,15 @@ print(dayTen23(input: inputDayTen, partTwo: true))
 //print(dayEleven23(input: inputDayEleven, partTwo: false))
 //
 //print(dayEleven23(input: inputDayEleven, partTwo: true))
+
+
+/// Day Twelve
+// TODO: Day twelve
+
+
+/// Day Thirteen
+let inputDayThirteen = loadAsArray(file: "DayThirteen2023", splitOn: "\n\n")
+
+print(dayThirteen23(input: inputDayThirteen, partTwo: false))
+
+//print(dayThirteen23(input: inputDayThirteen, partTwo: true))
