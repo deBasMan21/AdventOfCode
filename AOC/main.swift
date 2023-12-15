@@ -258,9 +258,25 @@
 // TODO: Day twelve
 
 
-/// Day Thirteen
-let inputDayThirteen = loadAsArray(file: "DayThirteen2023", splitOn: "\n\n")
+///// Day Thirteen
+//let inputDayThirteen = loadAsArray(file: "DayThirteen2023", splitOn: "\n\n")
+//
+//print(dayThirteen23(input: inputDayThirteen, partTwo: false))
+//
+//print(dayThirteen23(input: inputDayThirteen, partTwo: true))
 
-print(dayThirteen23(input: inputDayThirteen, partTwo: false))
 
-print(dayThirteen23(input: inputDayThirteen, partTwo: true))
+/// Day Fourteen
+let inputDayFourteen = loadAsArray(file: "DayFourteen2023")
+
+print(dayFourteen23(input: inputDayFourteen, partTwo: false))
+
+print(dayFourteen23(input: inputDayFourteen, partTwo: true))
+
+
+///// Day Fifteen
+//let inputDayFifteen = loadAsArray(file: "DayFifteen2023", splitOn: ",")
+//
+//print(dayFifteen23(input: inputDayFifteen, partTwo: false))
+//
+//print(dayFifteen23(input: inputDayFifteen, partTwo: true))
