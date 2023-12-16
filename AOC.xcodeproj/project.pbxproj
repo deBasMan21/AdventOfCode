@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF1D78922B2DF94B00EA662F /* 2023-16.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1D78912B2DF94B00EA662F /* 2023-16.swift */; };
+		EF1D78962B2DF99900EA662F /* DaySixteen2023.txt in Resources */ = {isa = PBXBuildFile; fileRef = EF1D78952B2DF99900EA662F /* DaySixteen2023.txt */; };
+		EF1D78982B2E27DA00EA662F /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1D78972B2E27DA00EA662F /* Point.swift */; };
 		EF2A0E8A2B24955D007949C9 /* 2023-9.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2A0E892B24955D007949C9 /* 2023-9.swift */; };
 		EF2A0E8C2B2495B6007949C9 /* DayNine2023.txt in Resources */ = {isa = PBXBuildFile; fileRef = EF2A0E8B2B2495B6007949C9 /* DayNine2023.txt */; };
 		EF2A0E8E2B263367007949C9 /* 2023-10.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2A0E8D2B263367007949C9 /* 2023-10.swift */; };
@@ -97,6 +100,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EF1D78912B2DF94B00EA662F /* 2023-16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2023-16.swift"; sourceTree = "<group>"; };
+		EF1D78952B2DF99900EA662F /* DaySixteen2023.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DaySixteen2023.txt; sourceTree = "<group>"; };
+		EF1D78972B2E27DA00EA662F /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
 		EF2A0E892B24955D007949C9 /* 2023-9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2023-9.swift"; sourceTree = "<group>"; };
 		EF2A0E8B2B2495B6007949C9 /* DayNine2023.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DayNine2023.txt; sourceTree = "<group>"; };
 		EF2A0E8D2B263367007949C9 /* 2023-10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2023-10.swift"; sourceTree = "<group>"; };
@@ -232,6 +238,7 @@
 				EFFD5EA62B2B358000A563D1 /* 2023-13.swift */,
 				EFFD5EAE2B2C99C700A563D1 /* 2023-14.swift */,
 				EFFD5EAA2B2C8E3600A563D1 /* 2023-15.swift */,
+				EF1D78912B2DF94B00EA662F /* 2023-16.swift */,
 			);
 			path = 2023;
 			sourceTree = "<group>";
@@ -278,6 +285,7 @@
 				EFFD5EA82B2B35D300A563D1 /* DayThirteen2023.txt */,
 				EFFD5EB02B2C9A6900A563D1 /* DayFourteen2023.txt */,
 				EFFD5EAC2B2C8E5C00A563D1 /* DayFifteen2023.txt */,
+				EF1D78952B2DF99900EA662F /* DaySixteen2023.txt */,
 			);
 			path = 2023;
 			sourceTree = "<group>";
@@ -331,6 +339,7 @@
 				EFB9F5FC294CC5DC00ECA7E1 /* TwoDArray.swift */,
 				EF62C15A2B1B597B00B1EB69 /* IntExtensions.swift */,
 				EF626E822B1D1457000E44CE /* CollectionExtensions.swift */,
+				EF1D78972B2E27DA00EA662F /* Point.swift */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -430,6 +439,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF2A0E902B2633CA007949C9 /* DayTen2023.txt in Resources */,
+				EF1D78962B2DF99900EA662F /* DaySixteen2023.txt in Resources */,
 				EFB9F679294CCC7400ECA7E1 /* DayTwo.txt in Resources */,
 				EFB9F676294CCC7400ECA7E1 /* DayThree.txt in Resources */,
 				EFB9F67A294CCC7400ECA7E1 /* DayFive.txt in Resources */,
@@ -502,6 +512,8 @@
 				EFB9F61A294CC5DD00ECA7E1 /* DayEight.swift in Sources */,
 				EF626E892B1F9755000E44CE /* 2023-5.swift in Sources */,
 				EF62C15B2B1B597B00B1EB69 /* IntExtensions.swift in Sources */,
+				EF1D78922B2DF94B00EA662F /* 2023-16.swift in Sources */,
+				EF1D78982B2E27DA00EA662F /* Point.swift in Sources */,
 				EFB9F609294CC5DD00ECA7E1 /* DayTen.swift in Sources */,
 				EFB9F60A294CC5DD00ECA7E1 /* DaySix.swift in Sources */,
 				EFFD5EA32B2705B200A563D1 /* 2023-11.swift in Sources */,

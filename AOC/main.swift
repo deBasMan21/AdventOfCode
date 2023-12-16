@@ -266,12 +266,12 @@
 //print(dayThirteen23(input: inputDayThirteen, partTwo: true))
 
 
-/// Day Fourteen
-let inputDayFourteen = loadAsArray(file: "DayFourteen2023")
-
-print(dayFourteen23(input: inputDayFourteen, partTwo: false))
-
-print(dayFourteen23(input: inputDayFourteen, partTwo: true))
+///// Day Fourteen
+//let inputDayFourteen = loadAsArray(file: "DayFourteen2023")
+//
+//print(dayFourteen23(input: inputDayFourteen, partTwo: false))
+//
+//print(dayFourteen23(input: inputDayFourteen, partTwo: true))
 
 
 ///// Day Fifteen
@@ -280,3 +280,11 @@ print(dayFourteen23(input: inputDayFourteen, partTwo: true))
 //print(dayFifteen23(input: inputDayFifteen, partTwo: false))
 //
 //print(dayFifteen23(input: inputDayFifteen, partTwo: true))
+
+
+/// Day Sixteen
+let inputDaySixteen = loadAsArray(file: "DaySixteen2023")
+
+print(daySixteen23(input: inputDaySixteen, partTwo: false))
+      
+print(daySixteen23(input: inputDaySixteen, partTwo: true))
