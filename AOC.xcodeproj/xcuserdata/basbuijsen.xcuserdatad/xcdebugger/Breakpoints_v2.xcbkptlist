@@ -20,5 +20,22 @@
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "909234B4-FBED-4D5E-A924-E921C36A5232"
+            shouldBeEnabled = "No"
+            condition = "node.point.y == 10 &amp;&amp; node.point.x == 0"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AOC/Sources/2023/2023-17.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "getNeighbours(grid:node:partTwo:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

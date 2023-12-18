@@ -282,9 +282,26 @@
 //print(dayFifteen23(input: inputDayFifteen, partTwo: true))
 
 
-/// Day Sixteen
-let inputDaySixteen = loadAsArray(file: "DaySixteen2023")
+///// Day Sixteen
+//let inputDaySixteen = loadAsArray(file: "DaySixteen2023")
+//
+//print(daySixteen23(input: inputDaySixteen, partTwo: false))
+//      
+//print(daySixteen23(input: inputDaySixteen, partTwo: true))
 
-print(daySixteen23(input: inputDaySixteen, partTwo: false))
+
+// TODO: Not completely working
+///// Day Seventeen
+//let inputDaySeventeen = loadAsArray(file: "DaySeventeen2023")
+//
+//print(daySeventeen23(input: inputDaySeventeen, partTwo: false))
+//
+//print(daySeventeen23(input: inputDaySeventeen, partTwo: true))
+
+
+/// Day Eighteen
+let inputDayEighteen = loadAsArray(file: "DayEighteen2023")
+
+print(dayEighteen23(input: inputDayEighteen, partTwo: false))
       
-print(daySixteen23(input: inputDaySixteen, partTwo: true))
+print(dayEighteen23(input: inputDayEighteen, partTwo: true))

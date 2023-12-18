@@ -10,6 +10,11 @@
 		EF1D78922B2DF94B00EA662F /* 2023-16.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1D78912B2DF94B00EA662F /* 2023-16.swift */; };
 		EF1D78962B2DF99900EA662F /* DaySixteen2023.txt in Resources */ = {isa = PBXBuildFile; fileRef = EF1D78952B2DF99900EA662F /* DaySixteen2023.txt */; };
 		EF1D78982B2E27DA00EA662F /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1D78972B2E27DA00EA662F /* Point.swift */; };
+		EF1D789A2B2EE86700EA662F /* 2023-17.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1D78992B2EE86700EA662F /* 2023-17.swift */; };
+		EF1D789C2B2EE88F00EA662F /* DaySeventeen2023.txt in Resources */ = {isa = PBXBuildFile; fileRef = EF1D789B2B2EE88F00EA662F /* DaySeventeen2023.txt */; };
+		EF1D789E2B30BC4800EA662F /* 2023-18.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1D789D2B30BC4800EA662F /* 2023-18.swift */; };
+		EF1D78A02B30BC9000EA662F /* DayEighteen2023.txt in Resources */ = {isa = PBXBuildFile; fileRef = EF1D789F2B30BC8F00EA662F /* DayEighteen2023.txt */; };
+		EF1D78A22B30D91500EA662F /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1D78A12B30D91500EA662F /* ArrayExtensions.swift */; };
 		EF2A0E8A2B24955D007949C9 /* 2023-9.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2A0E892B24955D007949C9 /* 2023-9.swift */; };
 		EF2A0E8C2B2495B6007949C9 /* DayNine2023.txt in Resources */ = {isa = PBXBuildFile; fileRef = EF2A0E8B2B2495B6007949C9 /* DayNine2023.txt */; };
 		EF2A0E8E2B263367007949C9 /* 2023-10.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2A0E8D2B263367007949C9 /* 2023-10.swift */; };
@@ -103,6 +108,11 @@
 		EF1D78912B2DF94B00EA662F /* 2023-16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2023-16.swift"; sourceTree = "<group>"; };
 		EF1D78952B2DF99900EA662F /* DaySixteen2023.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DaySixteen2023.txt; sourceTree = "<group>"; };
 		EF1D78972B2E27DA00EA662F /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		EF1D78992B2EE86700EA662F /* 2023-17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2023-17.swift"; sourceTree = "<group>"; };
+		EF1D789B2B2EE88F00EA662F /* DaySeventeen2023.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DaySeventeen2023.txt; sourceTree = "<group>"; };
+		EF1D789D2B30BC4800EA662F /* 2023-18.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2023-18.swift"; sourceTree = "<group>"; };
+		EF1D789F2B30BC8F00EA662F /* DayEighteen2023.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DayEighteen2023.txt; sourceTree = "<group>"; };
+		EF1D78A12B30D91500EA662F /* ArrayExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
 		EF2A0E892B24955D007949C9 /* 2023-9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2023-9.swift"; sourceTree = "<group>"; };
 		EF2A0E8B2B2495B6007949C9 /* DayNine2023.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DayNine2023.txt; sourceTree = "<group>"; };
 		EF2A0E8D2B263367007949C9 /* 2023-10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2023-10.swift"; sourceTree = "<group>"; };
@@ -239,6 +249,8 @@
 				EFFD5EAE2B2C99C700A563D1 /* 2023-14.swift */,
 				EFFD5EAA2B2C8E3600A563D1 /* 2023-15.swift */,
 				EF1D78912B2DF94B00EA662F /* 2023-16.swift */,
+				EF1D78992B2EE86700EA662F /* 2023-17.swift */,
+				EF1D789D2B30BC4800EA662F /* 2023-18.swift */,
 			);
 			path = 2023;
 			sourceTree = "<group>";
@@ -286,6 +298,8 @@
 				EFFD5EB02B2C9A6900A563D1 /* DayFourteen2023.txt */,
 				EFFD5EAC2B2C8E5C00A563D1 /* DayFifteen2023.txt */,
 				EF1D78952B2DF99900EA662F /* DaySixteen2023.txt */,
+				EF1D789B2B2EE88F00EA662F /* DaySeventeen2023.txt */,
+				EF1D789F2B30BC8F00EA662F /* DayEighteen2023.txt */,
 			);
 			path = 2023;
 			sourceTree = "<group>";
@@ -340,6 +354,7 @@
 				EF62C15A2B1B597B00B1EB69 /* IntExtensions.swift */,
 				EF626E822B1D1457000E44CE /* CollectionExtensions.swift */,
 				EF1D78972B2E27DA00EA662F /* Point.swift */,
+				EF1D78A12B30D91500EA662F /* ArrayExtensions.swift */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -454,6 +469,7 @@
 				EFB9F66F294CCC7400ECA7E1 /* DayTwelve.txt in Resources */,
 				EFB9F66E294CCC7400ECA7E1 /* DaySeven.txt in Resources */,
 				EFFD5EB12B2C9A6900A563D1 /* DayFourteen2023.txt in Resources */,
+				EF1D789C2B2EE88F00EA662F /* DaySeventeen2023.txt in Resources */,
 				EFB9F671294CCC7400ECA7E1 /* DayThirteen.txt in Resources */,
 				EFB9F677294CCC7400ECA7E1 /* DayFour.txt in Resources */,
 				EFB9F67C294CCC7400ECA7E1 /* tmp.txt in Resources */,
@@ -467,6 +483,7 @@
 				EFFD5EA52B2705ED00A563D1 /* DayEleven2023.txt in Resources */,
 				EFFD5EAD2B2C8E5C00A563D1 /* DayFifteen2023.txt in Resources */,
 				EFB9F675294CCC7400ECA7E1 /* DaySixteen.txt in Resources */,
+				EF1D78A02B30BC9000EA662F /* DayEighteen2023.txt in Resources */,
 				EF626E8B2B1F978E000E44CE /* DayFive2023.txt in Resources */,
 				EF7E1C162B19DED50037C6BD /* DayOne2023.txt in Resources */,
 				EFB9F66C294CCC7400ECA7E1 /* DayEight.txt in Resources */,
@@ -497,7 +514,9 @@
 				EFB9F61B294CC5DD00ECA7E1 /* DayNine.swift in Sources */,
 				EF2A0E8A2B24955D007949C9 /* 2023-9.swift in Sources */,
 				EF626E852B1DFD5E000E44CE /* 2023-4.swift in Sources */,
+				EF1D78A22B30D91500EA662F /* ArrayExtensions.swift in Sources */,
 				EFB9F611294CC5DD00ECA7E1 /* CharacterExtensions.swift in Sources */,
+				EF1D789E2B30BC4800EA662F /* 2023-18.swift in Sources */,
 				EFB9F614294CC5DD00ECA7E1 /* DayOne.swift in Sources */,
 				EFB9F617294CC5DD00ECA7E1 /* DayThirteen.swift in Sources */,
 				EFB9F60D294CC5DD00ECA7E1 /* RangeExtensions.swift in Sources */,
@@ -523,6 +542,7 @@
 				EFB9F60F294CC5DD00ECA7E1 /* CGPointExtensions.swift in Sources */,
 				EF626E832B1D1457000E44CE /* CollectionExtensions.swift in Sources */,
 				EFB9F618294CC5DD00ECA7E1 /* DayTwelve.swift in Sources */,
+				EF1D789A2B2EE86700EA662F /* 2023-17.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,4 +9,6 @@ import Foundation
 
 struct Point: Hashable {
     let x, y: Int
+    
+    static let zero = Point(x: 0, y: 0)
 }
